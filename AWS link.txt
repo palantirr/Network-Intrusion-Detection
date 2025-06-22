@@ -1,0 +1,4 @@
+CSE-CIC-IDS2018
+
+aws s3 ls --no-sign-request s3://cse-cic-ids2018/
+aws s3 sync --no-sign-request --region eu-west-2 "s3://cse-cic-ids2018/" dest-dir
